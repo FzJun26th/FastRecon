@@ -13,6 +13,6 @@ The code will be available soon.
 
 Overview of our method. Feature maps of each query sample and support samples are exacted by a pre-trained encoder. Features from support images are aggregated into a support feature pool. This pool is down-sampled through greedy coreset selection as $S$ to reduce data redundancy and improve inference speed. The coreset $S$ and the original query feature map $Q$ are then input to our proposed regression with distribution regularization as shown in the grey region. An optimal transformation $\bar{W}$ between $S$ and $Q$ is obtained by the regression to make sure the reconstructed sample $\bar{W} S$, denoted as $\bar{Q}$, to share similarity with $Q$ but keeps all the property of normal samples. Finally, we align $\bar{Q}$ and Q for direct comparison to obtaining the anomaly estimation.
 
-![](captures/result_00.png)
+![](captures/results_00.png)
 
 Qualitative results of anomaly localization for both MVTec and MPDD datasets. The first row in the red box presents the support sample for each category while the second row indicates the query samples. The results show that our method can provide accurate localization of defect regions even for more complicated patterns in MPDD.
