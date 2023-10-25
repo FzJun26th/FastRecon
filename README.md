@@ -6,4 +6,4 @@ In industrial anomaly detection, data efficiency and the ability for fast migrat
 
 The code will be available soon.
 
-![](https://github.com/FzJun26th/FastRecon/tree/main/captures/main_00.png)
+![Main Figure](https://github.com/FzJun26th/FastRecon/tree/main/captures/main_00.png)
