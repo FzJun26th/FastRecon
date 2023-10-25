@@ -27,5 +27,15 @@ This code is based on the project [PatchCore_anomaly_detection](https://github.c
 pip install -r requirements.txt
 
 python main.py --phase train or test --dataset_path .../mvtec_anomaly_detection --category carpet --project_root_path path/to/save/results --coreset_sampling_ratio 0.01 --n_neighbors 9
-
 ```
+
+Reference
+---------------
+[PatchCore_anomaly_detection](https://github.com/hcw-00/PatchCore_anomaly_detection#usage)
+[kcenter algorithm](https://github.com/google/active-learning)
+[embedding concat function](https://github.com/xiahaifeng1995/PaDiM-Anomaly-Detection-Localization-master)
+
+
+
+
+
