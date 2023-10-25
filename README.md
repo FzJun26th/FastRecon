@@ -7,3 +7,5 @@ In industrial anomaly detection, data efficiency and the ability for fast migrat
 The code will be available soon.
 
 ![](captures/main_00.png)
+
+Overview of our method. Feature maps of each query sample and support samples are exacted by a pre-trained encoder. Features from support images are aggregated into a support feature pool. This pool is down-sampled through greedy coreset selection as $S$ to reduce data redundancy and improve inference speed. The coreset $S$ and the original query feature map $Q$ are then input to our proposed regression with distribution regularization as shown in the grey region. An optimal transformation $\bar{W}$ between $S$ and $Q$ is obtained by the regression to make sure the reconstructed sample $\bar{W} S$, denoted as $\bar{Q}$, to share similarity with $Q$ but keeps all the property of normal samples. Finally, we align $\bar{Q}$ and Q for direct comparison to obtaining the anomaly estimation.
