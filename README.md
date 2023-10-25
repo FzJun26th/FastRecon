@@ -16,3 +16,8 @@ Overview of our method. Feature maps of each query sample and support samples ar
 ![](captures/results_00.png)
 
 Qualitative results of anomaly localization for both MVTec and MPDD datasets. The first row in the red box presents the support sample for each category while the second row indicates the query samples. The results show that our method can provide accurate localization of defect regions even for more complicated patterns in MPDD.
+
+Usage
+---------------
+
+This code is based on the project [PatchCore_anomaly_detection](https://github.com/hcw-00/PatchCore_anomaly_detection#usage)
